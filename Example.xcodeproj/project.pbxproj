@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040B02E81DB4277F000AC34A /* AnyDOvUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040B02E11DB4277F000AC34A /* AnyDOvUIKit.framework */; };
+		040B02E91DB4277F000AC34A /* AnyDOvUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040B02E11DB4277F000AC34A /* AnyDOvUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206121D5777CB00AE6F94 /* AVKit.framework */; };
+		6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206141D5777D000AE6F94 /* AVFoundation.framework */; };
+		6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206161D5777D500AE6F94 /* MapKit.framework */; };
+		040B02E51DB4277F000AC34A /* AnyDOvUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 040B02E31DB4277F000AC34A /* AnyDOvUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B3A5F631D5532050000E45F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A5F621D5532050000E45F /* main.m */; };
+		6B3A5F661D5532050000E45F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A5F651D5532050000E45F /* AppDelegate.m */; };
+		044ADF5C1DB572BA00DD6194 /* AnyDOvUIKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F6D1D5532050000E45F /* AnyDOvUIKit.xcassets */; };
+		B61557D0A8A0E7CFCD3C0613 /* AnimaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D629DC15ACF69B211DD7E0D7 /* AnimaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450DBC2BEC87017500B2F6B1 /* ANMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0821F58050F87F25907AADBB /* ANMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF8E10A475487593005469B /* ANGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A23EAF8A2207BA918D104FE /* ANGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C1FF289C9D5900F693C461 /* ANVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 534EEAC04CB4612A4D0A8538 /* ANVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4C1364E50E4A0AA85F71CE /* MKMapView+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = F04634DC6DD6FD1FBF990C94 /* MKMapView+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7D8C93D3AE0F1EDE993260 /* ANRSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B534F4ACE02A7959A9D3973 /* ANRSSParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3447D03B31C8D38B1C45901B /* ANProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 6232A086CEEC3D061064531F /* ANProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D155A82522C91EC23CAD2601 /* ANTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = F06276C011A7A489EB0DB849 /* ANTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB4F90D11A2680BA53255C8 /* ANTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E91C18742DC9C7D7FFDF7B /* ANTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BBE205FDA88A985946295F /* ANNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF30DE3DE3C85C9B4E33694E /* ANNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20238C49C0D1055DBF2A10B5 /* ANViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A13E6D8EDA76C96E9DC2E0 /* ANViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE90704FCC56C104F7D2C93D /* NSString+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DDB2C74E99ABF0824E0ED5 /* NSString+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60ED7FD3D73E644FABDD7ABE /* UIWebView+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = D075E61834C7015186D5D6EC /* UIWebView+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9ABE979F16128EC827C321 /* Anima-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 176AFFB2D7677F5A57D5E69F /* Anima-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724F08833E44E5D8085B86E8 /* ANCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7047B4444069079A70F19C04 /* ANCSVParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2E3C3BB7CA104E354D1D22 /* ANLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2FD8D205EC0C478C56F7BB /* ANLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7CDFDD9B815E76AEF08AE41 /* ANClassMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDB0F67FA4C11A57C1FC1BF /* ANClassMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD477D5C27FED4D2631AC80 /* NSDictionary+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = C77ABE8B5C4F2FBC6FDC07D2 /* NSDictionary+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B575D36220F9BE837A78D42 /* ANTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E1DB6D90702B97AE2C695D /* ANTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0DAA823DC525520E209B4E0 /* UIView+AnimaConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB153AAC6EE285CD33002FF /* UIView+AnimaConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6FB752109165EBF581B2EA /* UIView+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = 35389E484BBE9EA76848CBD8 /* UIView+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7EE2CF97DECB57205FAC677 /* UIImageView+Anima.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE489A0B1A6F6244F2EBD3F /* UIImageView+Anima.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF414299763342BB4876958 /* ANDataList.h in Headers */ = {isa = PBXBuildFile; fileRef = 8362EEBE33349D38783F1E3C /* ANDataList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC897E246B21EDE3ED86EF53 /* ANGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4067BF065DF5DE8E506A1C2 /* ANGradientView.m */; };
+		4B8CBC842DF3D8F5C797BAD9 /* ANClassMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = F84EC9698FF0B17D07664BAD /* ANClassMapping.m */; };
+		B9891FAA6F25C761496AE591 /* NSDictionary+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D35AAF567ACBA28758CD4C /* NSDictionary+Anima.m */; };
+		5B5548BA70F157F80B6F7DD8 /* ANTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D92F5585E7E3E212A3F0B /* ANTabBarController.m */; };
+		DAF92F104541F7A0A00D69A7 /* UIWebView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7396EBB08F1FD9BF2CE57 /* UIWebView+Anima.m */; };
+		D8548C081FBF767480040FF1 /* ANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAF342B9B5A1FE79427527 /* ANNavigationController.m */; };
+		3FB1A91C348F7A345C32DAB2 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC14ED0363BA89D0E0FBFE /* ANViewController.m */; };
+		D9448B08B5DB7E435702DE1A /* UIView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 51645499C6505E8B0AC0E885 /* UIView+Anima.m */; };
+		C0B4F4546CD1AEF0D337BAB3 /* ANTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DCBD9081A17544A18E3108 /* ANTheme.m */; };
+		4C608D32652F97039C660F3B /* ANDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A188AE0DDC395A6AF9DACF7 /* ANDataList.m */; };
+		6D355599868EC197256B5C09 /* ANRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F883214CB42C1E922BA806A6 /* ANRSSParser.m */; };
+		1A6500033B8ABB62FB997A49 /* UIImageView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D686F75E91BCD8D1FC2363C /* UIImageView+Anima.m */; };
+		34EEF1785765A91277D4687E /* NSString+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FFB9FF23F9885A2572CF77 /* NSString+Anima.m */; };
+		596F6C6F052AF3E3623CC5A1 /* ANVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282EED19BFABFC9391C2B7D /* ANVideoPlayer.m */; };
+		8D55878E9648AB24A824129D /* ANLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059D3C469567721676B592B /* ANLabel.m */; };
+		B120943920E8813B2AB257B5 /* UIView+AnimaConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = B409B75C7D70F22049798643 /* UIView+AnimaConstraints.m */; };
+		FE500A1BA5EEECBA2FA5C3D4 /* ANCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166DE1FC2ADF083949AD3E9 /* ANCSVParser.m */; };
+		DFE14BFA3F6682DDFE23F569 /* MKMapView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = A3841A57D85961A02E8D58FF /* MKMapView+Anima.m */; };
+		76E30420ED730827C063A988 /* ANTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F4EF58A3D687C8723C08 /* ANTextField.m */; };
+		D88242C0532DB518A831F42B /* APAnyDOvManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23584294B2DD6D5FB38171E1 /* APAnyDOvManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17180442AC83D0D4806E1F8E /* APCalendarCopy13VC.h in Headers */ = {isa = PBXBuildFile; fileRef = F86D5B9283C48CFD4D37F6D5 /* APCalendarCopy13VC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D99C88A59788F3370C6C88B /* APAnyDOvManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 534ED2A83A523DAEA7557E32 /* APAnyDOvManager.m */; };
+		0826A207182C2BD07ED3ED0F /* APCalendarCopy13VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0CF992EC8E73B290EE62E /* APCalendarCopy13VC.m */; };
+		C5CFFEF4CAB3F4D26CC72971 /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3098CB91E159D153818F180F /* SF-UI-Display-Semibold.otf */; };
+		7F857CDDEF6118E48D4EB84F /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB3B4E713AEE28E4B3C94058 /* SF-UI-Display-Bold.otf */; };
+		59A529585ADC025556761041 /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC252C077F4B5976CEF3D4A /* SF-UI-Display-Medium.otf */; };
+		044ADF5B1DB572BA00DD6194 /* AnyDOvUIKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044ADF491DB572BA00DD6194 /* AnyDOvUIKit.storyboard */; };
+		6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */; };
+		047723731E0063CB0067F666 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047723721E0063CB0067F666 /* ExampleUITests.swift */; };
+		0477237D1E0063FE0067F666 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477237C1E0063FE0067F666 /* SnapshotHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040B02E61DB4277F000AC34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3A5F561D5532050000E45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040B02E01DB4277F000AC34A;
+			remoteInfo = AnyDOvUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXHeadersBuildPhase section */
+		040B02DE1DB4277F000AC34A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			    040B02E51DB4277F000AC34A /* AnyDOvUIKit.h in Headers */,
+		        B61557D0A8A0E7CFCD3C0613 /* AnimaSDK.h in Headers */,
+		        450DBC2BEC87017500B2F6B1 /* ANMacros.h in Headers */,
+		        ABF8E10A475487593005469B /* ANGradientView.h in Headers */,
+		        87C1FF289C9D5900F693C461 /* ANVideoPlayer.h in Headers */,
+		        6C4C1364E50E4A0AA85F71CE /* MKMapView+Anima.h in Headers */,
+		        7C7D8C93D3AE0F1EDE993260 /* ANRSSParser.h in Headers */,
+		        3447D03B31C8D38B1C45901B /* ANProtocols.h in Headers */,
+		        D155A82522C91EC23CAD2601 /* ANTheme.h in Headers */,
+		        8CB4F90D11A2680BA53255C8 /* ANTextField.h in Headers */,
+		        96BBE205FDA88A985946295F /* ANNavigationController.h in Headers */,
+		        20238C49C0D1055DBF2A10B5 /* ANViewController.h in Headers */,
+		        EE90704FCC56C104F7D2C93D /* NSString+Anima.h in Headers */,
+		        60ED7FD3D73E644FABDD7ABE /* UIWebView+Anima.h in Headers */,
+		        4D9ABE979F16128EC827C321 /* Anima-Bridging-Header.h in Headers */,
+		        724F08833E44E5D8085B86E8 /* ANCSVParser.h in Headers */,
+		        FA2E3C3BB7CA104E354D1D22 /* ANLabel.h in Headers */,
+		        F7CDFDD9B815E76AEF08AE41 /* ANClassMapping.h in Headers */,
+		        EFD477D5C27FED4D2631AC80 /* NSDictionary+Anima.h in Headers */,
+		        9B575D36220F9BE837A78D42 /* ANTabBarController.h in Headers */,
+		        B0DAA823DC525520E209B4E0 /* UIView+AnimaConstraints.h in Headers */,
+		        4D6FB752109165EBF581B2EA /* UIView+Anima.h in Headers */,
+		        C7EE2CF97DECB57205FAC677 /* UIImageView+Anima.h in Headers */,
+		        1CF414299763342BB4876958 /* ANDataList.h in Headers */,
+		        D88242C0532DB518A831F42B /* APAnyDOvManager.h in Headers */,
+		        17180442AC83D0D4806E1F8E /* APCalendarCopy13VC.h in Headers */,
+		        );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		040B02ED1DB4277F000AC34A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				040B02E91DB4277F000AC34A /* AnyDOvUIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        040B02E11DB4277F000AC34A /* AnyDOvUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyDOvUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		040B02E31DB4277F000AC34A /* AnyDOvUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyDOvUIKit.h; sourceTree = "<group>"; };
+		040B02E41DB4277F000AC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3A5F5E1D5532050000E45F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        6B8206121D5777CB00AE6F94 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6B8206141D5777D000AE6F94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6B8206161D5777D500AE6F94 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6B3A5F621D5532050000E45F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B3A5F641D5532050000E45F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B3A5F651D5532050000E45F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B3A5F6D1D5532050000E45F /* AnyDOvUIKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AnyDOvUIKit.xcassets; sourceTree = "<group>"; };
+		6B3A5F721D5532050000E45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D629DC15ACF69B211DD7E0D7 /* AnimaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnimaSDK.h"; sourceTree = "<group>"; };
+		0821F58050F87F25907AADBB /* ANMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANMacros.h"; sourceTree = "<group>"; };
+		2A23EAF8A2207BA918D104FE /* ANGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANGradientView.h"; sourceTree = "<group>"; };
+		534EEAC04CB4612A4D0A8538 /* ANVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANVideoPlayer.h"; sourceTree = "<group>"; };
+		F04634DC6DD6FD1FBF990C94 /* MKMapView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+Anima.h"; sourceTree = "<group>"; };
+		8B534F4ACE02A7959A9D3973 /* ANRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANRSSParser.h"; sourceTree = "<group>"; };
+		6232A086CEEC3D061064531F /* ANProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANProtocols.h"; sourceTree = "<group>"; };
+		F06276C011A7A489EB0DB849 /* ANTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTheme.h"; sourceTree = "<group>"; };
+		A9E91C18742DC9C7D7FFDF7B /* ANTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTextField.h"; sourceTree = "<group>"; };
+		BF30DE3DE3C85C9B4E33694E /* ANNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANNavigationController.h"; sourceTree = "<group>"; };
+		A3A13E6D8EDA76C96E9DC2E0 /* ANViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANViewController.h"; sourceTree = "<group>"; };
+		A0DDB2C74E99ABF0824E0ED5 /* NSString+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Anima.h"; sourceTree = "<group>"; };
+		D075E61834C7015186D5D6EC /* UIWebView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Anima.h"; sourceTree = "<group>"; };
+		176AFFB2D7677F5A57D5E69F /* Anima-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Anima-Bridging-Header.h"; sourceTree = "<group>"; };
+		7047B4444069079A70F19C04 /* ANCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANCSVParser.h"; sourceTree = "<group>"; };
+		3B2FD8D205EC0C478C56F7BB /* ANLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANLabel.h"; sourceTree = "<group>"; };
+		4FDB0F67FA4C11A57C1FC1BF /* ANClassMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANClassMapping.h"; sourceTree = "<group>"; };
+		C77ABE8B5C4F2FBC6FDC07D2 /* NSDictionary+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Anima.h"; sourceTree = "<group>"; };
+		F6E1DB6D90702B97AE2C695D /* ANTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTabBarController.h"; sourceTree = "<group>"; };
+		4CB153AAC6EE285CD33002FF /* UIView+AnimaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimaConstraints.h"; sourceTree = "<group>"; };
+		35389E484BBE9EA76848CBD8 /* UIView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Anima.h"; sourceTree = "<group>"; };
+		BCE489A0B1A6F6244F2EBD3F /* UIImageView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Anima.h"; sourceTree = "<group>"; };
+		8362EEBE33349D38783F1E3C /* ANDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANDataList.h"; sourceTree = "<group>"; };
+		E4067BF065DF5DE8E506A1C2 /* ANGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANGradientView.m"; sourceTree = "<group>"; };
+		F84EC9698FF0B17D07664BAD /* ANClassMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANClassMapping.m"; sourceTree = "<group>"; };
+		B8D35AAF567ACBA28758CD4C /* NSDictionary+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Anima.m"; sourceTree = "<group>"; };
+		FE6D92F5585E7E3E212A3F0B /* ANTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTabBarController.m"; sourceTree = "<group>"; };
+		3EB7396EBB08F1FD9BF2CE57 /* UIWebView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Anima.m"; sourceTree = "<group>"; };
+		5CFAF342B9B5A1FE79427527 /* ANNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANNavigationController.m"; sourceTree = "<group>"; };
+		73AC14ED0363BA89D0E0FBFE /* ANViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANViewController.m"; sourceTree = "<group>"; };
+		51645499C6505E8B0AC0E885 /* UIView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Anima.m"; sourceTree = "<group>"; };
+		F3DCBD9081A17544A18E3108 /* ANTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTheme.m"; sourceTree = "<group>"; };
+		9A188AE0DDC395A6AF9DACF7 /* ANDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANDataList.m"; sourceTree = "<group>"; };
+		F883214CB42C1E922BA806A6 /* ANRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANRSSParser.m"; sourceTree = "<group>"; };
+		6D686F75E91BCD8D1FC2363C /* UIImageView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Anima.m"; sourceTree = "<group>"; };
+		B1FFB9FF23F9885A2572CF77 /* NSString+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Anima.m"; sourceTree = "<group>"; };
+		2282EED19BFABFC9391C2B7D /* ANVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANVideoPlayer.m"; sourceTree = "<group>"; };
+		8059D3C469567721676B592B /* ANLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANLabel.m"; sourceTree = "<group>"; };
+		B409B75C7D70F22049798643 /* UIView+AnimaConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimaConstraints.m"; sourceTree = "<group>"; };
+		8166DE1FC2ADF083949AD3E9 /* ANCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANCSVParser.m"; sourceTree = "<group>"; };
+		A3841A57D85961A02E8D58FF /* MKMapView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+Anima.m"; sourceTree = "<group>"; };
+		A9B4F4EF58A3D687C8723C08 /* ANTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTextField.m"; sourceTree = "<group>"; };
+		23584294B2DD6D5FB38171E1 /* APAnyDOvManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APAnyDOvManager.h"; sourceTree = "<group>"; };
+		F86D5B9283C48CFD4D37F6D5 /* APCalendarCopy13VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APCalendarCopy13VC.h"; sourceTree = "<group>"; };
+		534ED2A83A523DAEA7557E32 /* APAnyDOvManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APAnyDOvManager.m"; sourceTree = "<group>"; };
+		3CB0CF992EC8E73B290EE62E /* APCalendarCopy13VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APCalendarCopy13VC.m"; sourceTree = "<group>"; };
+		3098CB91E159D153818F180F /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		DB3B4E713AEE28E4B3C94058 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		6DC252C077F4B5976CEF3D4A /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044ADF491DB572BA00DD6194 /* AnyDOvUIKit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnyDOvUIKit.storyboard; sourceTree = "<group>"; };
+		047723701E0063CB0067F666 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047723721E0063CB0067F666 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
+		047723741E0063CB0067F666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477237C1E0063FE0067F666 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        040B02DD1DB4277F000AC34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3A5F5B1D5532050000E45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */,
+				6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */,
+				040B02E81DB4277F000AC34A /* AnyDOvUIKit.framework in Frameworks */,
+				6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B3A5F551D5532050000E45F = {
+			isa = PBXGroup;
+			children = (
+			    6B3A5F601D5532050000E45F /* Example */,
+				040B02E21DB4277F000AC34A /* AnyDOvUIKit */,
+				6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */,
+				047723711E0063CB0067F666 /* ExampleUITests */,
+				6B8206181D5777DD00AE6F94 /* Frameworks */,
+				6B3A5F5F1D5532050000E45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B3A5F5F1D5532050000E45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F5E1D5532050000E45F /* Example.app */,
+				040B02E11DB4277F000AC34A /* AnyDOvUIKit.framework */,
+				047723701E0063CB0067F666 /* ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B3A5F601D5532050000E45F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+                6B3A5F611D5532050000E45F /* Supporting Files */,
+                6B3A5F641D5532050000E45F /* AppDelegate.h */,
+				6B3A5F651D5532050000E45F /* AppDelegate.m */,
+				6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		6B3A5F611D5532050000E45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F621D5532050000E45F /* main.m */,
+				6B3A5F721D5532050000E45F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040B02E21DB4277F000AC34A /* AnyDOvUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			    6B53AE841D6C875A008DF93D /* Resources */,
+				6B3A5F6D1D5532050000E45F /* AnyDOvUIKit.xcassets */,
+				23584294B2DD6D5FB38171E1 /* APAnyDOvManager.h */,
+				534ED2A83A523DAEA7557E32 /* APAnyDOvManager.m */,
+				F86D5B9283C48CFD4D37F6D5 /* APCalendarCopy13VC.h */,
+				3CB0CF992EC8E73B290EE62E /* APCalendarCopy13VC.m */,
+				040B02E31DB4277F000AC34A /* AnyDOvUIKit.h */,
+				044ADF491DB572BA00DD6194 /* AnyDOvUIKit.storyboard */,
+				040B02E41DB4277F000AC34A /* Info.plist */,
+			);
+			path = AnyDOvUIKit;
+			sourceTree = "<group>";
+		};
+		6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D629DC15ACF69B211DD7E0D7 /* AnimaSDK.h */,
+				E4067BF065DF5DE8E506A1C2 /* ANGradientView.m */,
+				F84EC9698FF0B17D07664BAD /* ANClassMapping.m */,
+				B8D35AAF567ACBA28758CD4C /* NSDictionary+Anima.m */,
+				0821F58050F87F25907AADBB /* ANMacros.h */,
+				FE6D92F5585E7E3E212A3F0B /* ANTabBarController.m */,
+				3EB7396EBB08F1FD9BF2CE57 /* UIWebView+Anima.m */,
+				2A23EAF8A2207BA918D104FE /* ANGradientView.h */,
+				534EEAC04CB4612A4D0A8538 /* ANVideoPlayer.h */,
+				F04634DC6DD6FD1FBF990C94 /* MKMapView+Anima.h */,
+				5CFAF342B9B5A1FE79427527 /* ANNavigationController.m */,
+				8B534F4ACE02A7959A9D3973 /* ANRSSParser.h */,
+				73AC14ED0363BA89D0E0FBFE /* ANViewController.m */,
+				6232A086CEEC3D061064531F /* ANProtocols.h */,
+				F06276C011A7A489EB0DB849 /* ANTheme.h */,
+				A9E91C18742DC9C7D7FFDF7B /* ANTextField.h */,
+				BF30DE3DE3C85C9B4E33694E /* ANNavigationController.h */,
+				51645499C6505E8B0AC0E885 /* UIView+Anima.m */,
+				A3A13E6D8EDA76C96E9DC2E0 /* ANViewController.h */,
+				F3DCBD9081A17544A18E3108 /* ANTheme.m */,
+				A0DDB2C74E99ABF0824E0ED5 /* NSString+Anima.h */,
+				D075E61834C7015186D5D6EC /* UIWebView+Anima.h */,
+				176AFFB2D7677F5A57D5E69F /* Anima-Bridging-Header.h */,
+				7047B4444069079A70F19C04 /* ANCSVParser.h */,
+				9A188AE0DDC395A6AF9DACF7 /* ANDataList.m */,
+				3B2FD8D205EC0C478C56F7BB /* ANLabel.h */,
+				F883214CB42C1E922BA806A6 /* ANRSSParser.m */,
+				6D686F75E91BCD8D1FC2363C /* UIImageView+Anima.m */,
+				4FDB0F67FA4C11A57C1FC1BF /* ANClassMapping.h */,
+				C77ABE8B5C4F2FBC6FDC07D2 /* NSDictionary+Anima.h */,
+				F6E1DB6D90702B97AE2C695D /* ANTabBarController.h */,
+				B1FFB9FF23F9885A2572CF77 /* NSString+Anima.m */,
+				4CB153AAC6EE285CD33002FF /* UIView+AnimaConstraints.h */,
+				2282EED19BFABFC9391C2B7D /* ANVideoPlayer.m */,
+				8059D3C469567721676B592B /* ANLabel.m */,
+				35389E484BBE9EA76848CBD8 /* UIView+Anima.h */,
+				B409B75C7D70F22049798643 /* UIView+AnimaConstraints.m */,
+				BCE489A0B1A6F6244F2EBD3F /* UIImageView+Anima.h */,
+				8362EEBE33349D38783F1E3C /* ANDataList.h */,
+				8166DE1FC2ADF083949AD3E9 /* ANCSVParser.m */,
+				A3841A57D85961A02E8D58FF /* MKMapView+Anima.m */,
+				A9B4F4EF58A3D687C8723C08 /* ANTextField.m */,
+				);
+			path = "Anima-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		047723711E0063CB0067F666 /* ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0477237C1E0063FE0067F666 /* SnapshotHelper.swift */,
+				047723721E0063CB0067F666 /* ExampleUITests.swift */,
+				047723741E0063CB0067F666 /* Info.plist */,
+			);
+			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+        6B8206181D5777DD00AE6F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8206161D5777D500AE6F94 /* MapKit.framework */,
+				6B8206141D5777D000AE6F94 /* AVFoundation.framework */,
+				6B8206121D5777CB00AE6F94 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+        6B53AE841D6C875A008DF93D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3098CB91E159D153818F180F /* SF-UI-Display-Semibold.otf in Resources */,
+				DB3B4E713AEE28E4B3C94058 /* SF-UI-Display-Bold.otf in Resources */,
+				6DC252C077F4B5976CEF3D4A /* SF-UI-Display-Medium.otf in Resources */,
+				);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3A5F5D1D5532050000E45F /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				6B3A5F5A1D5532050000E45F /* Sources */,
+				6B3A5F5B1D5532050000E45F /* Frameworks */,
+				040B02ED1DB4277F000AC34A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040B02E71DB4277F000AC34A /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = AnyDOv;
+			productReference = 6B3A5F5E1D5532050000E45F /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040B02E01DB4277F000AC34A /* AnyDOvUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040B02EC1DB4277F000AC34A /* Build configuration list for PBXNativeTarget "AnyDOvUIKit" */;
+			buildPhases = (
+				040B02DC1DB4277F000AC34A /* Sources */,
+				040B02DD1DB4277F000AC34A /* Frameworks */,
+				040B02DE1DB4277F000AC34A /* Headers */,
+				040B02DF1DB4277F000AC34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyDOvUIKit;
+			productName = AnyDOvUIKit;
+			productReference = 040B02E11DB4277F000AC34A /* AnyDOvUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		0477236F1E0063CB0067F666 /* ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047723771E0063CB0067F666 /* Build configuration list for PBXNativeTarget "ExampleUITests" */;
+			buildPhases = (
+				0477236C1E0063CB0067F666 /* Sources */,
+				0477236D1E0063CB0067F666 /* Frameworks */,
+				0477236E1E0063CB0067F666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047723761E0063CB0067F666 /* PBXTargetDependency */,
+			);
+			name = ExampleUITests;
+			productName = ExampleUITests;
+			productReference = 047723701E0063CB0067F666 /* ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B3A5F561D5532050000E45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			    LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CompanyName;
+				TargetAttributes = {
+				    6B3A5F5D1D5532050000E45F = {
+						CreatedOnToolsVersion = 8.0;
+					};
+					040B02E01DB4277F000AC34A = {
+						CreatedOnToolsVersion = 8.0;
+					};
+				};
+			};
+			buildConfigurationList = 6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "AnyDOvUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B3A5F551D5532050000E45F;
+			productRefGroup = 6B3A5F5F1D5532050000E45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			    6B3A5F5D1D5532050000E45F /* Example */,
+				040B02E01DB4277F000AC34A /* AnyDOvUIKit */,
+				0477236F1E0063CB0067F666 /* ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        040B02DF1DB4277F000AC34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044ADF5C1DB572BA00DD6194 /* AnyDOvUIKit.xcassets in Resources */,
+				044ADFF41DB5784800DD6194 /* License.txt in Resources */,
+				044ADF211DB5654D00DD6194 /* Info.plist in Resources */,
+				044ADFE41DB5784800DD6194 /* Anima-iOS-SDK.podspec in Resources */,
+				044ADF5B1DB572BA00DD6194 /* AnyDOvUIKit.storyboard in Resources */,
+				C5CFFEF4CAB3F4D26CC72971 /* SF-UI-Display-Semibold.otf in Resources */,
+				7F857CDDEF6118E48D4EB84F /* SF-UI-Display-Bold.otf in Resources */,
+				59A529585ADC025556761041 /* SF-UI-Display-Medium.otf in Resources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3A5F5C1D5532050000E45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3A5F6E1D5532050000E45F /* AnyDOvUIKit.xcassets.xcassets in Resources */,
+				6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        040B02DC1DB4277F000AC34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC897E246B21EDE3ED86EF53 /* ANGradientView.m in Sources */,
+				4B8CBC842DF3D8F5C797BAD9 /* ANClassMapping.m in Sources */,
+				B9891FAA6F25C761496AE591 /* NSDictionary+Anima.m in Sources */,
+				5B5548BA70F157F80B6F7DD8 /* ANTabBarController.m in Sources */,
+				DAF92F104541F7A0A00D69A7 /* UIWebView+Anima.m in Sources */,
+				D8548C081FBF767480040FF1 /* ANNavigationController.m in Sources */,
+				3FB1A91C348F7A345C32DAB2 /* ANViewController.m in Sources */,
+				D9448B08B5DB7E435702DE1A /* UIView+Anima.m in Sources */,
+				C0B4F4546CD1AEF0D337BAB3 /* ANTheme.m in Sources */,
+				4C608D32652F97039C660F3B /* ANDataList.m in Sources */,
+				6D355599868EC197256B5C09 /* ANRSSParser.m in Sources */,
+				1A6500033B8ABB62FB997A49 /* UIImageView+Anima.m in Sources */,
+				34EEF1785765A91277D4687E /* NSString+Anima.m in Sources */,
+				596F6C6F052AF3E3623CC5A1 /* ANVideoPlayer.m in Sources */,
+				8D55878E9648AB24A824129D /* ANLabel.m in Sources */,
+				B120943920E8813B2AB257B5 /* UIView+AnimaConstraints.m in Sources */,
+				FE500A1BA5EEECBA2FA5C3D4 /* ANCSVParser.m in Sources */,
+				DFE14BFA3F6682DDFE23F569 /* MKMapView+Anima.m in Sources */,
+				76E30420ED730827C063A988 /* ANTextField.m in Sources */,
+				7D99C88A59788F3370C6C88B /* APAnyDOvManager.m in Sources */,
+				0826A207182C2BD07ED3ED0F /* APCalendarCopy13VC.m in Sources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3A5F5A1D5532050000E45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			    6B3A5F661D5532050000E45F /* AppDelegate.m in Sources */,
+				6B3A5F631D5532050000E45F /* main.m in Sources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477236C1E0063CB0067F666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047723731E0063CB0067F666 /* ExampleUITests.swift in Sources */,
+				0477237D1E0063FE0067F666 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040B02E71DB4277F000AC34A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040B02E01DB4277F000AC34A /* AnyDOvUIKit */;
+			targetProxy = 040B02E61DB4277F000AC34A /* PBXContainerItemProxy */;
+		};
+		047723761E0063CB0067F666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3A5F5D1D5532050000E45F /* Example */;
+			targetProxy = 047723751E0063CB0067F666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+        040B02EA1DB4277F000AC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9NBMUGY7C7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyDOvUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnyDOv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		040B02EB1DB4277F000AC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9NBMUGY7C7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnyDOvUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnyDOv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B3A5F731D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				};
+			name = Debug;
+		};
+		6B3A5F741D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				};
+			name = Release;
+		};
+		6B3A5F761D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnyDOv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B3A5F771D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnyDOv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		047723781E0063CB0067F666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animaapp.ExampleUITests;
+				PRODUCT_NAME = ExampleUITests;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Example;
+			};
+			name = Debug;
+		};
+		047723791E0063CB0067F666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.animaapp.ExampleUITests;
+				PRODUCT_NAME = ExampleUITests;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        040B02EC1DB4277F000AC34A /* Build configuration list for PBXNativeTarget "AnyDOvUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040B02EA1DB4277F000AC34A /* Debug */,
+				040B02EB1DB4277F000AC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F731D5532050000E45F /* Debug */,
+				6B3A5F741D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "AnyDOvUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F761D5532050000E45F /* Debug */,
+				6B3A5F771D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047723771E0063CB0067F666 /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047723781E0063CB0067F666 /* Debug */,
+				047723791E0063CB0067F666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B3A5F561D5532050000E45F /* Project object */;
+}
